@@ -1,0 +1,41 @@
+<component name="libraryTable">
+  <library name="gdxsoft.ffmpeg.utils" type="repository">
+    <properties maven-id="com.gdxsoft.ffmpeg:ffmpeg-utils:1.0.1" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/gdxsoft/ffmpeg/ffmpeg-utils/1.0.1/ffmpeg-utils-1.0.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/net/bramp/ffmpeg/ffmpeg/0.6.2/ffmpeg-0.6.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/20.0/guava-20.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/2.5/commons-io-2.5.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/modelmapper/modelmapper/0.7.7/modelmapper-0.7.7.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-log4j12/1.7.26/slf4j-log4j12-1.7.26.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/gdxsoft/ffmpeg/ffmpeg-utils/1.0.1/ffmpeg-utils-1.0.1-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/net/bramp/ffmpeg/ffmpeg/0.6.2/ffmpeg-0.6.2-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/20.0/guava-20.0-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/2.5/commons-io-2.5-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.0/gson-2.8.0-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/modelmapper/modelmapper/0.7.7/modelmapper-0.7.7-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-log4j12/1.7.26/slf4j-log4j12-1.7.26-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/gdxsoft/ffmpeg/ffmpeg-utils/1.0.1/ffmpeg-utils-1.0.1-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/net/bramp/ffmpeg/ffmpeg/0.6.2/ffmpeg-0.6.2-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/20.0/guava-20.0-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/2.5/commons-io-2.5-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.0/gson-2.8.0-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/modelmapper/modelmapper/0.7.7/modelmapper-0.7.7-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-log4j12/1.7.26/slf4j-log4j12-1.7.26-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
