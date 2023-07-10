@@ -47,6 +47,7 @@ public class Main {
                     throw new Exception();
             }
         }catch (Throwable e){
+            e.printStackTrace();
             System.out.println("参数错误或出现异常！");
             System.out.println("正确参数：(源：file|url) (mp4|mp3) (文件|链接)");
         }

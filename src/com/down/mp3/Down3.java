@@ -1,21 +1,15 @@
 package com.down.mp3;
 
 import com.down.mp4.Down4;
-import com.down.mp4.Video;
 import net.lingala.zip4j.ZipFile;
 import org.apache.commons.io.FileUtils;
 import org.jetbrains.annotations.NotNull;
 
-import java.io.ByteArrayInputStream;
 import java.io.File;
 import java.io.IOException;
-import java.io.InputStream;
-import java.net.URISyntaxException;
-import java.nio.charset.StandardCharsets;
-import java.util.zip.ZipInputStream;
 
 public class Down3 {
-    private static final String ARGUMENT = "-i %s %s";
+    private static final String ARGUMENT = "-i %s %s -y";
     private String FFMPEG_PATH = ".\\ffmpeg-win\\";
     private String SAVE_PATH = ".\\down\\audio\\";
     private String FFMPEG_EXE_PATH = FFMPEG_PATH + "bin\\ffmpeg.exe";
@@ -51,11 +45,11 @@ public class Down3 {
     private final Down4 down4;
     public Down3(@NotNull Down4 down4) {
         this.down4 = down4;
-        try {
-            FileUtils.deleteDirectory(new File(SAVE_PATH));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+//        try {
+//            FileUtils.deleteDirectory(new File(SAVE_PATH));
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
         if(!checkFfmpeg()){
             System.out.println("未检测到ffmpeg，将自动释放文件！");
             putFfmpeg();
@@ -70,7 +64,7 @@ public class Down3 {
     public File down(Audio audio){
         File mp4 = down4.down(audio);
         if(mp4==null) return null;
-        System.out.printf("开始转换音频\"%s\"！%n",audio.getTitle());
+        System.out.printf("开始转换音频\"%s\"！%n",audio.getTitleNoErrChar());
         final long begin = System.currentTimeMillis();
         String filename4 = mp4.getName();
         String filename3 = filename4.substring(0,filename4.length()-1)+"3";
@@ -78,7 +72,7 @@ public class Down3 {
         String command = String.format(FFMPEG_EXE_PATH+" "+ARGUMENT,mp4,mp3);
         if(new RunFfmpeg(command).start()==0){
             final long end = System.currentTimeMillis();
-            System.out.printf("转换完毕！用时：%d秒",(end - begin)/1000);
+            System.out.printf("转换完毕！用时：%d秒%n",(end - begin)/1000);
             return mp3;
         }else {
             System.out.printf("转换音频\"%s\"失败！%n",filename3);
